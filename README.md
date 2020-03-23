@@ -45,7 +45,7 @@ Considere que termos as seguintes restrições para cada conjunto:
 
 _OBS: Se você não tiver GCC instalado em sua máquina, troque o compilador no [Makefile](./Makefile)._
 
-Clone esse repositório em sua máquina, insira no arquivo `input.txt` a entrada do seu AFnD esperada, acesse o diretório do programa em um shell e execute o comando `make`.
+Clone esse repositório em sua máquina, insira no arquivo `input.txt` a entrada do seu AFnD esperada, acesse o diretório do programa em um terminal e execute o comando `make`.
 
 ## Licença
 
