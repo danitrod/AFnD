@@ -21,56 +21,25 @@ O programa deverá, conforme especificado no arquivo de entrada, processar a as 
 
 Considere que termos as seguintes restrições para cada conjunto:
 
-<div style="display: flex; flex-direction: row; align-items: flex-start; justify-content: space-between;">
-<div>
-Exemplo de entrada
+#### Exemplos
 
-ab
-
-3
-
-1
-
-2
-
-4
-
-0 a 0
-
-0 a 1
-
-0 b 0
-
-1 b 2
-
-5
-
-aab
-
-aababab
-
-ababb
-
-bbaa
-
-b
-
-</div>
-<div>
-Exemplo de saída
-
-1: aab OK
-
-2: aababab OK
-
-3: ababb not OK
-
-4: bbaa not OK
-
-5: b not OK
-
-</div>
-</div>
+| Entrada |      Saída      |
+| :-----: | :-------------: |
+|   ab    |    1: aab OK    |
+|    3    |  2: aababab OK  |
+|    1    | 3: ababb not OK |
+|    2    | 4: bbaa not OK  |
+|    4    |   5: b not OK   |
+|  0 a 0  |                 |
+|  0 a 1  |                 |
+|  0 b 0  |                 |
+|  1 b 2  |                 |
+|    5    |                 |
+|   aab   |                 |
+| aababab |                 |
+|  ababb  |                 |
+|  bbaa   |                 |
+|    b    |                 |
 
 ## Instruções para executar o programa
 
