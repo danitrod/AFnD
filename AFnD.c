@@ -260,7 +260,7 @@ int main(void)
     }
 
     // Printar matriz de transições para verificação
-    // Descomente o comentário abaixo (linha 267-291) para ver a matriz de transição na tela de saída.
+    // Descomente o comentário abaixo (linha 265-289) para ver a matriz de transição na tela de saída.
 
     // printf("\nMatriz de transições:\n[\n\t");
     // for (int lin = 0; lin < nEstados; lin++)
@@ -308,14 +308,14 @@ int main(void)
 
     i++;
     char palavra[100];
-    int q[nEstados];       // Armazenará os possíveis estados do AFnD, com 1 quando há estado e 0 quando não há.
+    int q[nEstados];       // Armazenará os possíveis estados do AFnD, com 1 está ativo e 0 quando não está.
     int qFuturo[nEstados]; // Armazenará os próximos estados;
     char *res;             // Armazenará o resultado do AFnD na palavra
     for (int p = 1; p <= nPalavras; p++)
     {
         q[0] = 1; // Começará no estado q0.
         for (int e = 1; e < nEstados; e++)
-            q[e] = 0;
+            q[e] = 0; // Outros estados começam inativos.
         contador = 0;
         for (int l = 0; l < 100; l++)
         {
