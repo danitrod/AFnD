@@ -7,9 +7,11 @@ ab
 0 a 1
 0 b 0
 1 b 2
-5
+7
 aab
 aababab
 ababb
 bbaa
 b
+babab
+ab
