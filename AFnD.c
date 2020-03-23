@@ -3,7 +3,7 @@
 #include <string.h>
 
 /*
-Entrega de trabalho - Nome do trabalho
+Entrega de trabalho - Simulador de AFnD
 
 Nós,
 
